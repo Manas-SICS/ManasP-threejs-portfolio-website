@@ -322,9 +322,11 @@ const projects = [
     image: xarothi,
     source_code_link_a: "https://www.behance.net/gallery/181692031/Xarothi-FSM",
     source_code_link_a_img: behance,
+    source_title_a: "Behance",
     source_code_link_b:
       "https://www.scribd.com/document/676064085/Xarothi-FSM-A-Comprehensive-Data-backed-Food-Service-Management-System",
     source_code_link_b_img: scribd,
+    source_title_b: "Scribd",
   },
   {
     name: "MumbaiKar",
@@ -347,6 +349,7 @@ const projects = [
     image: mumbaikar,
     source_code_link_a: "https://www.behance.net/gallery/133482519/Mumbai-Kar",
     source_code_link_a_img: behance,
+    source_title_a: "Behance",
   },
   {
     name: "Len-Den: User Research",
@@ -370,8 +373,10 @@ const projects = [
     source_code_link_a:
       "https://www.behance.net/gallery/181693349/-A-User-Research-Case-Study",
     source_code_link_a_img: behance,
+    source_title_a: "Behance",
     source_code_link_b: "https://github.com/",
     source_code_link_b_img: scribd,
+    source_title_b: "Scribd",
   },
   {
     name: "Boxari",
@@ -394,6 +399,7 @@ const projects = [
     image: boxari,
     source_code_link_a: "https://www.behance.net/gallery/121760695/Boxari",
     source_code_link_a_img: behance,
+    source_title_a: "Behance",
   },
   {
     name: "Flavourette",
@@ -416,6 +422,7 @@ const projects = [
     image: flavourette,
     source_code_link_a: "https://www.behance.net/gallery/129909249/FLAVOURETTE",
     source_code_link_a_img: behance,
+    source_title_a: "Behance",
   },
   {
     name: "Personal Portfolio",
@@ -439,6 +446,7 @@ const projects = [
     source_code_link_a:
       "https://github.com/Manas-SICS/ManasP-threejs-portfolio-website",
     source_code_link_a_img: github,
+    source_title_a: "Github",
   },
 ];
 

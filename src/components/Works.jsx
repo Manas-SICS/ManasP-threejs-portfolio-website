@@ -14,8 +14,10 @@ const ProjectCard = ({
   image,
   source_code_link_a,
   source_code_link_a_img,
+  source_title_a,
   source_code_link_b,
   source_code_link_b_img,
+  source_title_b,
 }) => {
   return (
     <motion.div
@@ -33,41 +35,36 @@ const ProjectCard = ({
               alt={name}
               className="w-full h-full object-cover rounded-2xl"
             />
-
-            <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">
-              <div
-                onClick={() => window.open(source_code_link_a, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={source_code_link_a_img}
-                  alt="project-link"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div>
-              {source_code_link_b && (
-                <div
-                  onClick={() => window.open(source_code_link_b, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={source_code_link_b_img}
-                    alt="project-link"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
-                </div>
-              )}
-            </div>
           </div>
           <div className="mt-5">
             <h3 className="text-orange font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-light-grey tex-[14px]">{description}</p>
           </div>
-          <div className="mt-5">
-            <p className="text-[12px] text-light-grey underline underline-offset-[3px] decoration-orange">
-              Click on the icons at the top right of the card to view the full
-              project.
-            </p>
+          <div className="flex flex-col gap-2 justify-start mt-5">
+            <div
+              onClick={() => window.open(source_code_link_a, "_blank")}
+              className="bg-secondary hover:bg-orange w-fit pl-5 pr-5 h-10 rounded-full flex items-center cursor-pointer"
+            >
+              <img
+                src={source_code_link_a_img}
+                alt="project-link"
+                className="w-1/2 h-1/2 mr-3 object-contain"
+              />{" "}
+              {source_title_a}
+            </div>
+            {source_code_link_b && (
+              <div
+                onClick={() => window.open(source_code_link_b, "_blank")}
+                className="bg-secondary hover:bg-orange w-fit pl-5 pr-5 h-10 rounded-full flex items-center cursor-pointer"
+              >
+                <img
+                  src={source_code_link_b_img}
+                  alt="project-link"
+                  className="w-1/2 h-1/2 mr-3 object-contain"
+                />{" "}
+                {source_title_b}
+              </div>
+            )}
           </div>
         </div>
 
