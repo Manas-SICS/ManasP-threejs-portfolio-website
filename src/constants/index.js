@@ -99,7 +99,7 @@ const technologies = [
 const experiences = [
   {
     title: "Bachelor in Design (Graduate Degree)",
-    company_name: "Anant National University",
+    company_name: "Anant National University, Ahmedabad",
     icon: anantu,
     iconBg: "#0075bc",
     date: "August 2019 - June 2023",
@@ -115,7 +115,7 @@ const experiences = [
   },
   {
     title: "Graphic Designer",
-    company_name: "CinEmon Consulting",
+    company_name: "CinEmon Consulting (Remote)",
     icon: cinemon,
     iconBg: "#18002c",
     date: "Oct 2020 - Oct 2022",
@@ -128,7 +128,7 @@ const experiences = [
   },
   {
     title: "Social Media Strategist and Designer",
-    company_name: "Idealoft Studio",
+    company_name: "Idealoft Studio (Remote)",
     icon: idealoft,
     iconBg: "#000000",
     date: "Mar 2021 - Aug 2021",
@@ -142,7 +142,7 @@ const experiences = [
   },
   {
     title: "Graduation Project Intern",
-    company_name: "Otenga Initiatives Pvt. Ltd.",
+    company_name: "Otenga Initiatives Pvt. Ltd., Ahmedabad",
     icon: otenga,
     iconBg: "#07813e",
     date: "Jan 2023 - May 2023",
