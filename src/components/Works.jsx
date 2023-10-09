@@ -85,7 +85,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          “You are not your resume, you are your work.”{" "}
+          “You are not your resumé, you are your work.”{" "}
           <span className="italic"> — Seth Godin</span>
         </p>
         <h2 className={styles.sectionHeadText}>My Projects</h2>
