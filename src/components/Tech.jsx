@@ -19,7 +19,7 @@ const Tech = () => {
       </motion.div>
       <motion.div
         variants={fadeIn("", "", 0.75, 1)}
-        className="mt-10 text-light-grey text-[16px]  w-full flex flex-col leading-[30px]"
+        className="mt-10 text-light-grey text-[21px]  w-full flex flex-col leading-[30px]"
       >
         <div>
           <p>

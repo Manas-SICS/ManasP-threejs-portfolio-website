@@ -40,7 +40,7 @@ const About = () => {
             hold an A grade in CAIE A level English. Writing, in fact, is one of
             my favourite hobbies. My writings pertaining to design are available{" "}
             <strong>on my blog on Medium.</strong> You can check it out by
-            wisiting the link below.
+            visiting the link below.
           </p>
           <p className="mt-4 text-light-grey text-[17px] max-w-2xl leading-[30px]">
             <strong>
