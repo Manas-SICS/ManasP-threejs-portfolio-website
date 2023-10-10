@@ -1,20 +1,35 @@
 import React, { useState } from "react";
+import { BrowserView, MobileView } from "react-device-detect";
 
 export const Tooltip = ({ text, children }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div
-      className="relative p-0"
-      onMouseEnter={() => setIsVisible(true)}
-      onMouseLeave={() => setIsVisible(false)}
-    >
-      {children}
-      {isVisible && (
-        <div className="absolute text-center top-0 bg-black/[0.8] text-white p-2 rounded z-1 w-full">
-          {text}
+    <>
+      <BrowserView>
+        <div
+          className="relative p-0 items-center"
+          onMouseEnter={() => setIsVisible(true)}
+          onMouseLeave={() => setIsVisible(false)}
+        >
+          {children}
+          {isVisible && (
+            <div className="absolute text-center font-bold top-[-30px] text-[14px] text-orange rounded z-1 w-full">
+              {text}
+            </div>
+          )}
         </div>
-      )}
-    </div>
+      </BrowserView>
+      <MobileView>
+        <div className="relative p-0 items-center">
+          {children}
+          {
+            <div className="absolute text-center font-bold top-[-30px] text-[14px] text-orange rounded z-1 w-full">
+              {text}
+            </div>
+          }
+        </div>
+      </MobileView>
+    </>
   );
 };

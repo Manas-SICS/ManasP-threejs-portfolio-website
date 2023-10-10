@@ -51,7 +51,7 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.25)}>
+      <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>
           “The only way to enjoy anything in this life is to earn it first.”
           <span className="italic"> – Ginger Rogers </span>
@@ -60,7 +60,7 @@ const Experience = () => {
       </motion.div>
 
       <motion.div
-        variants={fadeIn("", "", 0.75, 0.5)}
+        variants={fadeIn("", "", 0.25, 0.5)}
         className="mt-20 flex flex-col "
       >
         <VerticalTimeline>

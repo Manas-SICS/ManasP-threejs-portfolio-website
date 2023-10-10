@@ -11,7 +11,7 @@ import { profileimg } from "../assets";
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.5)}>
+      <motion.div variants={textVariant(0.0)}>
         <p className={styles.sectionSubText}>
           “People are not your most important asset. The right people are.”
           <span className="italic"> – Jim Collins</span>
@@ -19,7 +19,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
       <div className="mt-5 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden items-center">
-        <motion.div variants={slideIn("left", "tween", 0.7, 1)}>
+        <motion.div variants={slideIn("left", "tween", 0.35, 0.5)}>
           <p className="mt-4 text-light-grey text-[17px] max-w-3xl leading-[30px]">
             I am an Interaction Designer specialising in{" "}
             <strong>UI and System Design.</strong> With a wide range of software
@@ -50,14 +50,14 @@ const About = () => {
             challenging and thus, pathways for learning and growth.
           </p>
         </motion.div>
-        <motion.div variants={slideIn("right", "tween", 0.7, 1)}>
+        <motion.div variants={slideIn("right", "tween", 0.35, 0.5)}>
           <img
             className="rounded-full w-[400px] object-cover"
             src={profileimg}
           />
         </motion.div>
       </div>
-      <motion.div variants={textVariant(1.2)}>
+      <motion.div variants={textVariant(0.8)}>
         <p className=" mt-10 font-bold text-orange text-[17px] max-w-3xl leading-[30px]">
           If you feel like that is something that you are looking for, <br />
           you can connect with me over LinkedIn.

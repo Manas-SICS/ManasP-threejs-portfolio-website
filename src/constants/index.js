@@ -71,15 +71,15 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Adobe Photoshop",
+    name: "Photoshop",
     icon: photoshop,
   },
   {
-    name: "Adobe Illustrator",
+    name: "Illustrator",
     icon: illustrator,
   },
   {
-    name: "Google Docs Editors Suite",
+    name: "Google Docs",
     icon: googlesuite,
   },
   {

@@ -20,10 +20,7 @@ const ProjectCard = ({
   source_title_b,
 }) => {
   return (
-    <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="flex flex-col"
-    >
+    <div className="flex flex-col">
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full flex-1 flex flex-col justify-between"
@@ -76,14 +73,14 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0)}>
         <p className={styles.sectionSubText}>
           “You are not your resumé, you are your work.”{" "}
           <span className="italic"> — Seth Godin</span>
@@ -93,7 +90,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn("", "", 0.35, 0.5)}
           className="mt-3 text-light-grey text-[16px] max-w-3xl leading-[30px]"
         >
           <p>
@@ -117,7 +114,10 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 items-stretch">
+      <motion.div
+        variants={fadeIn("", "", 0.6, 0.5)}
+        className="mt-20 flex flex-wrap gap-7 items-stretch"
+      >
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
@@ -126,7 +126,7 @@ const Works = () => {
             className="flex-1"
           />
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };

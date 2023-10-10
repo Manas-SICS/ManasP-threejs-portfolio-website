@@ -13,10 +13,7 @@ const FeedbackCard = ({
   image,
   credentialurl,
 }) => (
-  <motion.div
-    variants={fadeIn("", "spring", 0.25 * index, 0.5)}
-    className="bg-black-100 outline outline-orange outline-1 p-5 rounded-3xl xs:w-[320px] w-full"
-  >
+  <div className="bg-black-100 outline outline-orange outline-1 p-5 rounded-3xl xs:w-[320px] w-full">
     <div className="mt-1 flex flex-col justify-between">
       <div className="flex flex-grow justify-between items-center">
         <img
@@ -42,7 +39,7 @@ const FeedbackCard = ({
         </div>
       </div>
     </div>
-  </motion.div>
+  </div>
 );
 
 const Feedbacks = () => {
@@ -51,7 +48,7 @@ const Feedbacks = () => {
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <motion.div variants={textVariant(0)}>
           <p className={styles.sectionSubText}>
             "Try to learn something about everything and everything about
             something." <span className="italic"> – Thomas Huxley</span>
@@ -60,11 +57,14 @@ const Feedbacks = () => {
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <motion.div
+        variants={fadeIn("", "spring", 0.35, 0.5)}
+        className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}
+      >
         {certifications.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };
