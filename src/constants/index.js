@@ -31,6 +31,7 @@ const navLinks = [
     id: "about",
     title: "About",
   },
+  { id: "experience", title: "Experience" },
   {
     id: "work",
     title: "Work",
@@ -98,7 +99,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Bachelor in Design (Graduate Degree)",
+    title: "Bachelor of Design",
     company_name: "Anant National University, Ahmedabad",
     icon: anantu,
     iconBg: "#0075bc",

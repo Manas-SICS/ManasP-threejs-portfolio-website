@@ -17,7 +17,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+        <div className="bg-[url('./assets/herobg_mob.png')] md:bg-[url('./assets/herobg.png')] bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
         </div>
@@ -32,7 +32,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <div className="bg-tertiary w-full">
+        <div className="bg-tertiary border-y-4 mb-[5px] border-orange w-full">
           <Footer />
         </div>
       </div>

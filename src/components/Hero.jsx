@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-orange">Manas!</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 md:mt-5 text-white`}>
+          <p className={`${styles.heroSubText} mt-2 md:mt-4 text-white`}>
             An Interaction Designer
             <span className="hidden md:block">
               {" "}
@@ -22,7 +22,7 @@ const Hero = () => {
             </span>
           </p>
           <p
-            className={`${styles.heroSubText} mt-2 text-orange flex justify-center  text-center`}
+            className={`${styles.heroSubText} mt-2 md:mt-4 text-orange flex justify-center  text-center`}
           >
             #
             <Typewriter
@@ -46,7 +46,7 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full justify-center flex items-center">
+      <div className="hidden absolute xs:bottom-10 bottom-32 w-full justify-center md:flex items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-[3px] border-light-grey flex justify-center items-start p-2 ">
             <motion.dev

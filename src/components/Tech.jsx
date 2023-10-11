@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-
+import { expand } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { Tooltip } from "./tooltip";
@@ -18,7 +18,7 @@ const Tech = () => {
       </motion.div>
       <motion.div
         variants={fadeIn("", "", 0.35, 0.5)}
-        className="mt-10 text-light-grey text-[21px]  w-full flex flex-col leading-[30px]"
+        className=" mt-5 xl:mt-10 text-light-grey text-[12px] md:text-[16px] leading-[20px] md:leading-[30px]  w-full flex flex-col"
       >
         <div>
           <p>
@@ -27,7 +27,7 @@ const Tech = () => {
             express myself better as a designer. I have always found out that a
             problem requiring an unknown software is the best way to learn it.
           </p>
-          <p className="mt-7">
+          <p className="mt-2 xl:mt-7">
             Hence, this coupled with an extreme interest in learning new
             softwares has enabled me to keep expanding this arsenal of mine.
           </p>
@@ -37,14 +37,14 @@ const Tech = () => {
             <div className="mt-6">
               <Tooltip text={technology.name}>
                 <div
-                  className="h-28 w-28 p-[1px] justify-center items-center bg-orange rounded"
+                  className="h-20 w-20 md:h-28 md:w-28 p-[1px] justify-center items-center bg-orange rounded"
                   key={technology.name}
                 >
                   <div className="h-full w-full m-2 p-3 bg-white outline outline-orange outline-1 rounded">
                     <img
                       src={technology.icon}
                       alt={`${technology.name} - logo`}
-                      className="w-fit h-fit"
+                      className="w-full h-full"
                     />
                   </div>
                 </div>
@@ -53,6 +53,11 @@ const Tech = () => {
           ))}
         </div>
       </motion.div>
+      <div className=" flex w-full mt-10 xl:hidden justify-between items-center">
+        <div className="w-full bg-orange h-[2px]">&nbsp;</div>
+        <img className="w-[24px] h-[24px]" src={expand} />
+        <div className="w-full bg-orange h-[2px]">&nbsp;</div>
+      </div>
     </>
   );
 };

@@ -14,7 +14,7 @@ export const Tooltip = ({ text, children }) => {
         >
           {children}
           {isVisible && (
-            <div className="absolute text-center font-bold top-[-30px] text-[14px] text-orange rounded z-1 w-full">
+            <div className="absolute text-center font-bold top-[-30px] text-[12px] md:text-[14px] text-orange rounded z-1 w-full">
               {text}
             </div>
           )}
@@ -24,7 +24,7 @@ export const Tooltip = ({ text, children }) => {
         <div className="relative p-0 items-center">
           {children}
           {
-            <div className="absolute text-center font-bold top-[-30px] text-[14px] text-orange rounded z-1 w-full">
+            <div className="absolute text-center font-bold top-[-30px] text-[12px] text-orange rounded z-1 w-full">
               {text}
             </div>
           }

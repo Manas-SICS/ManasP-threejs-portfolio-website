@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -52,20 +52,22 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 outline outline-orange outline-[1px] black-gradient absolute top-10 right-0 mx-4 my-5
-             min-w-[140px] z-10 rounded-xl`}
+            } p-4 outline outline-orange outline-[0.1px] black-gradient absolute top-10 right-0 mx-4 my-5
+             min-w-[140px] z-10 rounded`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((Link) => (
-                <li
-                  key={Link.id}
-                  className="font-poppins font-medum cursor-pointer text-[16px]"
-                  onClick={() => {
-                    setToggle(!toggle);
-                  }}
-                >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
-                </li>
+                <a href={`#${Link.id}`}>
+                  <li
+                    key={Link.id}
+                    className="font-light text-light-grey cursor-pointer w-[150px] border-b  border-orange/[0.4] text-center text-[16px]"
+                    onClick={() => {
+                      setToggle(!toggle);
+                    }}
+                  >
+                    {Link.title}
+                  </li>
+                </a>
               ))}
             </ul>
           </div>

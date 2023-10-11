@@ -2,13 +2,13 @@ import { SectionWrapper } from "../hoc";
 
 const Footer = () => {
   return (
-    <div className="h-full items-center w-full bg-tertiary">
+    <div className="h-full items-center mt-10 sm:mt-0 mb-10 sm:mb-0 w-full bg-tertiary">
       <p className="w-full text-center font-medium text-[17px]">
         &copy;2023 Manas Prabhutendolkar
         <br />
         <span className="font-light text-[12px]">All rights reserved.</span>
       </p>
-      <div className="flex justify-between  mt-3">
+      <div className="flex justify-between mt-10 sm:mt-3">
         <p className="p-2 items-center flex font-bold">
           Credits and Attributions{" "}
         </p>
