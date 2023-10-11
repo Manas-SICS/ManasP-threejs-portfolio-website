@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { certifications } from "../constants";
 import { expand } from "../assets";
 
-const FeedbackCard = ({
+const CertificationCard = ({
   index,
   credentialid,
   certification,
@@ -47,7 +47,7 @@ const FeedbackCard = ({
   </div>
 );
 
-const Feedbacks = () => {
+const Certifications = () => {
   return (
     <>
       <div className="bg-tertiary rounded-[20px]">
@@ -65,13 +65,13 @@ const Feedbacks = () => {
 
         <motion.div
           variants={fadeIn("", "spring", 0.35, 0.5)}
-          className={`${styles.paddingX} -mt-16 md:-mt-20 pb-14 flex flex-wrap justify-center gap-7`}
+          className={`${styles.paddingX} -mt-12 md:-mt-20 pb-14 flex flex-wrap justify-center gap-7`}
         >
-          {certifications.map((testimonial, index) => (
-            <FeedbackCard
-              key={testimonial.name}
+          {certifications.map((certification, index) => (
+            <CertificationCard
+              key={certification.name}
               index={index}
-              {...testimonial}
+              {...certification}
             />
           ))}
         </motion.div>
@@ -85,4 +85,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks, "certifications");
+export default SectionWrapper(Certifications, "certifications");
