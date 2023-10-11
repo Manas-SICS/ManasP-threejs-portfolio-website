@@ -55,6 +55,7 @@ const About = () => {
           <img
             className="rounded-full mt-5 xl:mt-0 xl:w-[400px] w-[200px] object-cover"
             src={profileimg}
+            alt="Profile Photo"
           />
         </motion.div>
       </div>

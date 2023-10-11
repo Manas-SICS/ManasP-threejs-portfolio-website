@@ -65,7 +65,7 @@ const Feedbacks = () => {
 
         <motion.div
           variants={fadeIn("", "spring", 0.35, 0.5)}
-          className={`${styles.paddingX} -mt-24 md:-mt-20 pb-14 flex flex-wrap justify-center gap-7`}
+          className={`${styles.paddingX} -mt-16 md:-mt-20 pb-14 flex flex-wrap justify-center gap-7`}
         >
           {certifications.map((testimonial, index) => (
             <FeedbackCard

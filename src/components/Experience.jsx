@@ -46,6 +46,7 @@ const ExperienceCard = ({ experience }) => {
             <img
               className="h-6 w-6 p-1 rounded-full md:hidden outline outline-[1px] outline-white"
               src={toggle ? close : expand}
+              alt="Expand experience points"
               onClick={() => setToggle(!toggle)}
             />
           </div>
