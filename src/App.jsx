@@ -7,6 +7,7 @@ import {
   Certifications,
   Hero,
   Navbar,
+  Popup,
   Tech,
   Works,
   StarsCanvas,
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
+        <Popup />
         <div className="bg-[url('./assets/herobg_mob.png')] md:bg-[url('./assets/herobg.png')] bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />

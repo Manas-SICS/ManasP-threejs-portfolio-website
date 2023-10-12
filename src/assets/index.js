@@ -3,6 +3,9 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import expand from "./expand.svg";
+
+import popupgif from "./popup.json";
+
 import behance from "./behance.jpeg";
 import scribd from "./scribd.svg";
 import github from "./github.png";
@@ -39,6 +42,7 @@ export {
   menu,
   close,
   expand,
+  popupgif,
   behance,
   scribd,
   github,

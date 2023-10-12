@@ -1,6 +1,7 @@
 import { EarthCanvas, ComputersCanvas, StarsCanvas } from "./canvas";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Popup from "./MobPopup";
 import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
@@ -12,6 +13,7 @@ import Footer from "./Footer";
 export {
   Hero,
   Navbar,
+  Popup,
   About,
   Tech,
   Experience,
