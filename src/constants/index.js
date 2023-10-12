@@ -375,7 +375,8 @@ const projects = [
       "https://www.behance.net/gallery/181693349/-A-User-Research-Case-Study",
     source_code_link_a_img: behance,
     source_title_a: "Behance",
-    source_code_link_b: "https://github.com/",
+    source_code_link_b:
+      "https://www.scribd.com/document/677030186/%E0%A4%B2%E0%A5%87%E0%A4%A8-%E0%A4%A6%E0%A5%87%E0%A4%A8-Analysing-the-accessibility-of-digital-banking-services-for-Women-from-marginalised-communities",
     source_code_link_b_img: scribd,
     source_title_b: "Scribd",
   },
