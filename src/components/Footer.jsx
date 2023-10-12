@@ -53,6 +53,17 @@ const Footer = () => {
             </a>
           </p>
           <p>
+            Mobile Popup Gif: Computer
+            <span className="italic"> by lordicon</span> |&nbsp;
+            <a
+              href="https://lordicon.com/icons/wired/outline/478-computer-display"
+              target="_blank"
+              className="underline font-bold"
+            >
+              View GIF
+            </a>
+          </p>
+          <p>
             Hero Image: <span className="italic">Combination of </span> Birds.
             IG: c0nrad98 |
             <span className="italic">
@@ -211,6 +222,14 @@ const Footer = () => {
             &nbsp;| Unsplash -&nbsp;
             <a
               href="https://unsplash.com/"
+              target="_blank"
+              className="underline font-bold"
+            >
+              View
+            </a>{" "}
+            &nbsp;| Lottie-React -&nbsp;
+            <a
+              href="https://lottiereact.com/"
               target="_blank"
               className="underline font-bold"
             >

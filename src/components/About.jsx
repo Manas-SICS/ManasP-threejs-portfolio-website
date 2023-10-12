@@ -63,7 +63,7 @@ const About = () => {
         <p className=" mt-5 xl:mt-10 font-bold text-orange text-[14px] md:text-[16px] max-w-3xl leading-[20px] md:leading-[30px]">
           If you feel like that is something that you are looking for,{" "}
           <br className="hidden md:block" />
-          you can connect with me over LinkedIn.
+          you can connect with me over Linkedin.
         </p>
 
         <div className=" mt-5 xl:mt-10  flex gap-5">
