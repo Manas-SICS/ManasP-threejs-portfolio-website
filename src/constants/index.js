@@ -80,7 +80,7 @@ const technologies = [
     icon: illustrator,
   },
   {
-    name: "Google Docs",
+    name: "Google Sheets",
     icon: googlesuite,
   },
   {
@@ -105,9 +105,9 @@ const experiences = [
     iconBg: "#0075bc",
     date: "August 2019 - June 2023",
     points: [
-      "Graduated with 3.43/4 CGPA with a major in Interaction Design and a minor in Communication Design",
+      "Graduated with a 3.43/4 CGPA with a major in Interaction Design and a minor in Communication Design",
       "Was offered a full 100% Scholarship for getting a National Rank of 403 in the UCEED Exam 2019.",
-      "Retained the full Scholarship for the entirety of my 4 year long course.",
+      "Retained the full Scholarship for the entirety of my 4-year long course.",
       "Served in the Student Council as a General Secretary and Events Head",
       "Served as a Campus Ambassador",
       "Involved in the organisation of various events including two Club Fairs, one Convocation, one Intra-College Debate and numerous other talks and workshops.",
@@ -122,9 +122,9 @@ const experiences = [
     date: "Oct 2020 - Oct 2022",
     points: [
       "Created new logos and redesigned logos with their respective logo guideline documents for multiple clients.",
-      "Created numerous business decks for a range of clients that icluded proposals, look books, and case studies.",
+      "Created numerous business decks for a range of clients that included proposals, lookbooks, and case studies.",
       "Created Motion Graphics based reels for social media pages of various clients.",
-      "Coded various emailers and email signatured for clients.",
+      "Coded various emailers and email signatures for clients.",
     ],
   },
   {
@@ -138,7 +138,7 @@ const experiences = [
       "Redesigned graphic style of internal Social Media.",
       "Set up automation of posting to social media channels ",
       "Wrote captions and written material for Social Media Posts",
-      "Involved in other internal projects including creation of few UI Assets and video editing for a project with YesBank on the occasion of World Family Day.",
+      "Involved in other internal projects including the creation of a few UI Assets and video editing for a project with YesBank on the occasion of World Family Day.",
     ],
   },
   {
@@ -148,11 +148,11 @@ const experiences = [
     iconBg: "#07813e",
     date: "Jan 2023 - May 2023",
     points: [
-      "Conceptualised a prototype POS System that involved better data collection and processing. Created Information Architecture, conducted interviews and UX Research, created the start of a design system, and made few prortype screens for the same.",
+      "Conceptualised a prototype POS System that involved better data collection and processing. Created Information Architecture, conducted interviews and UX Research, created the start of a design system, and made a few prototype screens for the same.",
       "Helped plan and conduct 7 events and 3 talks.",
       "Wrote the content for majority of the outgoing communication.",
-      "Improved the project management by creating project trackers for the team on google sheets.",
-      "Helped the café space in conducting comparative software analysis for the selection of a new POS System and then helped in the migration of data and processes to the new software",
+      "Improved project management by creating project trackers for the team on Google Sheets.",
+      "Helped the studio's café space in conducting comparative software analysis for the selection of a new POS System and then helped in the migration of data and processes to the new software",
     ],
   },
 ];
