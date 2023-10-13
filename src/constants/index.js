@@ -321,9 +321,9 @@ const projects = [
       },
     ],
     image: xarothi,
-    source_code_link_a: "https://www.behance.net/gallery/181692031/Xarothi-FSM",
-    source_code_link_a_img: behance,
-    source_title_a: "Behance",
+    // source_code_link_a: "https://www.behance.net/gallery/181692031/Xarothi-FSM",
+    // source_code_link_a_img: behance,
+    // source_title_a: "Behance",
     source_code_link_b:
       "https://www.scribd.com/document/676064085/Xarothi-FSM-A-Comprehensive-Data-backed-Food-Service-Management-System",
     source_code_link_b_img: scribd,
