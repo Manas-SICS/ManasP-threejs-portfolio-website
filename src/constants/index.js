@@ -80,7 +80,7 @@ const technologies = [
     icon: illustrator,
   },
   {
-    name: "Google Sheets",
+    name: "Sheets",
     icon: googlesuite,
   },
   {
