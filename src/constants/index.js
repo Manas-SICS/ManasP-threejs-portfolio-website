@@ -321,13 +321,12 @@ const projects = [
       },
     ],
     image: xarothi,
-    // source_code_link_a: "https://www.behance.net/gallery/181692031/Xarothi-FSM",
-    // source_code_link_a_img: behance,
-    // source_title_a: "Behance",
-    source_code_link_b:
-      "https://www.scribd.com/document/676064085/Xarothi-FSM-A-Comprehensive-Data-backed-Food-Service-Management-System",
-    source_code_link_b_img: scribd,
-    source_title_b: "Scribd",
+    // source_code_link_b: "https://www.behance.net/gallery/181692031/Xarothi-FSM",
+    // source_code_link_b_img: behance,
+    // source_title_b: "Behance",
+    source_code_link_a: "https://online.fliphtml5.com/vhbqb/aqxv/#p=1",
+    source_code_link_a_img: scribd,
+    source_title_a: "FlipHTML5",
   },
   {
     name: "MumbaiKar",
@@ -375,10 +374,9 @@ const projects = [
       "https://www.behance.net/gallery/181693349/-A-User-Research-Case-Study",
     source_code_link_a_img: behance,
     source_title_a: "Behance",
-    source_code_link_b:
-      "https://www.scribd.com/document/677030186/%E0%A4%B2%E0%A5%87%E0%A4%A8-%E0%A4%A6%E0%A5%87%E0%A4%A8-Analysing-the-accessibility-of-digital-banking-services-for-Women-from-marginalised-communities",
+    source_code_link_b: "https://online.fliphtml5.com/vhbqb/ufew/#p=1",
     source_code_link_b_img: scribd,
-    source_title_b: "Scribd",
+    source_title_b: "FlipHTML5",
   },
   {
     name: "Boxari",
