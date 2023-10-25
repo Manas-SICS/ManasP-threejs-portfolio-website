@@ -7,7 +7,7 @@ import { slideIn, textVariant } from "../utils/motion";
 
 import { SectionWrapper } from "../hoc";
 
-import { profileimg } from "../assets";
+import { profileimg, medium, linkedin } from "../assets";
 
 const About = () => {
   return (
@@ -73,7 +73,7 @@ const About = () => {
             className=" bg-tertiary outline-none overflow-y-hidden h-[50px] w-fit text-white flex font-bold shadow-md shadow-primary rounded-[10px]"
           >
             <img
-              src="https://miro.medium.com/v2/resize:fit:1200/1*jfdwtvU6V6g99q3G7gq7dQ.png"
+              src={medium}
               alt="Blog-on-Medium"
               className="w-[150px] object-cover"
             />
@@ -85,7 +85,7 @@ const About = () => {
             className="bg-tertiary outline-none overflow-y-hidden h-[50px] w-fit text-white flex font-bold shadow-md shadow-primary rounded-[10px]"
           >
             <img
-              src="https://i0.wp.com/www.alphr.com/wp-content/uploads/2023/08/1637655738-linkedin-101-hero2x.jpg?resize=738%2C320&ssl=1"
+              src={linkedin}
               alt="LinkedIn-Profile"
               className="w-[150px] object-cover"
             />

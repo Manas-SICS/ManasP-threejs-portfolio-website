@@ -15,10 +15,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 md:mt-4 text-white`}>
             An Interaction Designer
-            <span className="hidden md:block">
-              {" "}
-              who is passionate about design <br />
-              as a way of living.
+            <span className="hidden lg:inline">
+              who is passionate about design as a way of living.
             </span>
           </p>
           <p

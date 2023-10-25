@@ -6,6 +6,10 @@ import expand from "./expand.svg";
 
 import popupgif from "./popup.json";
 
+import medium from "./medium_logo.png";
+import linkedin from "./linkedin_logo.webp";
+import ibm from "./ibm_logo.jpg";
+
 import behance from "./behance.jpeg";
 import scribd from "./scribd.svg";
 import github from "./github.png";
@@ -43,6 +47,9 @@ export {
   close,
   expand,
   popupgif,
+  medium,
+  linkedin,
+  ibm,
   behance,
   scribd,
   github,

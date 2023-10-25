@@ -1,4 +1,5 @@
 import {
+  ibm,
   blender,
   css,
   figma,
@@ -173,8 +174,7 @@ const certifications = [
     company: "IBM",
     issued: "August 2023",
     credentialid: "View Certificate",
-    image:
-      "https://pbs.twimg.com/profile_images/1493920778194145281/-3wAsike_400x400.jpg",
+    image: ibm,
     credentialurl:
       "https://www.coursera.org/account/accomplishments/specialization/certificate/LNUW9S5HJT5U",
   },
